@@ -22,3 +22,7 @@
 - NetflixGPT
   - Search Bar
   - Movie Suggestions
+
+### Validation to forms
+
+- Formik library : building and managing large forms in Reacct
