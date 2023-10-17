@@ -4,7 +4,7 @@ import { FaCircleInfo } from "react-icons/fa6";
 
 const VideoTitle = ({ title, overview }) => {
   return (
-    <div className="w-screen aspect-video pt-[25%] px-[5%] absolute text-white bg-gradient-to-r from-black">
+    <div className="w-screen aspect-video pt-[22%] pl-[3%] absolute text-white bg-gradient-to-r from-black">
       <h1 className="text-5xl font-bold">{title}</h1>
       <p className="py-6 text-lg w-1/4">
         {overview.length > 100 ? `${overview.substring(0, 100)}...` : overview}
