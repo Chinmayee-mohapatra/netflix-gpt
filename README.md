@@ -66,3 +66,10 @@
 
 - Make things happen twice as the create-rect-app enclose our App inside <React.StrictMode> </React.StrictMode> in case on local environment
 - React does extra rendering for the cmponents to check for inconsistency, in development phase. And if anything goes wrong in the development cycle it throws an error.
+
+### Movie Recommendation System using GPT (Open AI GPT API)
+
+- GPT Recommendation System : eg : Old hindi bollywood movies which are funny.
+- Chat GPT is the interface on top of GPT API's.
+
+- Building : GPT Search Feature
