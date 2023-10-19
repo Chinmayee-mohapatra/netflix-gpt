@@ -94,13 +94,17 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img className="" src={BACKGROUND_IMG} alt="background" />
+        <img
+          className=" w-screen h-screen object-cover"
+          src={BACKGROUND_IMG}
+          alt="background"
+        />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="w-4/12 text-white absolute p-12 my-36 rounded-md bg-opacity-80 mx-auto right-0 left-0 bg-black"
+        className="w-2/3 md:w-4/12 text-white absolute p-12 my-36 rounded-md bg-opacity-80 mx-auto right-0 left-0 bg-black"
       >
-        <h1 className="font-bold text-3xl py-4">
+        <h1 className="font-bold text-2xl md:text-3xl py-4">
           {isSignInForm ? "Sign In" : "Sign Up"}
         </h1>
         {!isSignInForm && (
@@ -125,7 +129,7 @@ const Login = () => {
         />
         <p className="text-red-500 font-semibold px-1 my-2 ">{errorMessage}</p>
         <button
-          className=" w-full p-4 my-6 bg-red-700 rounded-md"
+          className=" w-full p-4 my-6 bg-red-700 rounded-md hover:bg-red-600 duration-200"
           onClick={handleButtonClick}
         >
           {isSignInForm ? "Sign In" : "Sign Up"}
