@@ -3,6 +3,11 @@
 - Create React App
 - Configure Tailwind CSS
 
+## Demo User:
+
+- Email: testuser2@gmail.com
+- Pswd: Test2@123
+
 ### Features
 
 - Header
