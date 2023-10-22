@@ -62,7 +62,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-screen absolute z-10 px-8 py-2 bg-gradient-to-b from-black flex flex-col md:flex-row justify-between">
+    <div className="w-screen absolute z-50 px-8 py-2 bg-gradient-to-b from-black flex flex-col md:flex-row justify-between">
       <img className="w-44 mx-auto md:mx-0" src={LOGO} alt="logo" />
       {user && (
         <div className="flex items-center justify-between gap-2 cursor-pointer">
@@ -80,10 +80,16 @@ const Header = () => {
           )}
 
           <button
-            className="py-2 px-4 mx-4 my-2 bg-purple-900 text-white font-semibold tracking-wide rounded-md "
+            className="text-white font-semibold tracking-wide "
             onClick={handleGPTSearchClick}
           >
-            {showGptSearch ? "Home" : "GPT Search"}
+            {showGptSearch ? (
+              <div className="py-2 px-4 my-2">Home</div>
+            ) : (
+              <div className="py-2 px-4 mx-4 my-2 bg-purple-900 rounded-sm">
+                GPT Search
+              </div>
+            )}
           </button>
           <img
             className="w-8 h-8 hidden md:block rounded-sm"

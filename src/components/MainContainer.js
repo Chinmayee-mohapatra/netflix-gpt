@@ -8,7 +8,7 @@ const MainContainer = () => {
 
   if (!movies) return; // This is also known as "early return".
 
-  const mainMovie = movies[0];
+  const mainMovie = movies[Math.floor(Math.random() * movies.length)];
   const { id, original_title, overview } = mainMovie;
 
   return (

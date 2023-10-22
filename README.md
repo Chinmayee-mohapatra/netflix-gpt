@@ -7,6 +7,7 @@
 
 - Email: testuser2@gmail.com
 - Pswd: Test2@123
+- (Bypass the warning message)
 
 ### Features
 
@@ -50,6 +51,7 @@
 - Added .env file
 - Adding .env file to gitignore
 - Made Site Responsive
+- OnHover over the card for each movie - show movie details.
 
 ### Building a Redux store:
 
