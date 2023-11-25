@@ -6,40 +6,39 @@ Welcome to Netflix-GPT, a cutting-edge project combining React, Redux, and OpenA
 ![image](https://github.com/Chinmayee-mohapatra/netflix-gpt/assets/94803850/3cd1a602-2d86-4f55-81a6-132e171e01d3)
 
 
-## Demo User:
+## Live Demo
 
 - Email: test123@gmail.com
 - Pswd: Test@123
+- Live: https://netflix-gpt-4b75c.web.app/
+  
+## Tech Stack
 
-## Tech Stack:
 FoodAdda is built using the following technologies:
 
-create-react-app -- Set up a modern web app by running one command.
-React JS and React Hooks (useState and useEffect)
-Custom Hooks -- enhanced functionality
-React Router DOM -- smooth navigation
-Redux store -- state management
-Tailwind CSS -- stylish and responsive design
-Jest and React Testing Library -- unit and integration testing
+- create-react-app -- Set up a modern web app by running one command.
+- React JS and React Hooks (useState and useEffect)
+- Custom Hooks -- enhanced functionality
+- React Router DOM -- smooth navigation
+- Redux store -- state management
+- Tailwind CSS -- stylish and responsive design
 
 ## Features
 
-- Header
-- Routing of App
 - Login & Sign up Form
 - Form Validation
 - useRef Hook
 - Firebase Setup
-- Deploying our app to production
+- Deploying the app to production
 - Create SignUp User Account
 - Implement Sign In user Api
 - Created Redux Store with userSlice
 - Implemented Sign out
 - BugFix: Sign up user displayName and profile picture update
 - BugFix: if the user is not logged in Redirect /browse to Login Page and vice-versa
-- Unsubscibed to the onAuthStateChanged callback
+- Unsubscribed to the onAuthStateChanged callback
 - Add hardcoded values to the constants file
-- Regiter TMDB API & create an app & get access token
+- Register TMDB API & create an app & get access token
 - Get Data from TMDB now playing movies list API
 - Custom Hook for Now Playing Movies
 - Create movieSlice
@@ -47,7 +46,7 @@ Jest and React Testing Library -- unit and integration testing
 - Planning for MainContainer & secondary container
 - Fetch Data for Trailer Video
 - Update Store with Trailer Video Data
-- Embedded the Yotube video and make it autoplay and mute
+- Embedded the YouTube video and made it autoplay and mute
 - Build Secondary Component, Movie List & Movie Card
 - TMDB Image CDN URL
 - Made the Browser page amazing with Tailwind CSS
@@ -59,12 +58,12 @@ Jest and React Testing Library -- unit and integration testing
 - Gpt Search API Call
 - fetched gptMoviesSuggestions from TMDB
 - created gptSlice added data
-- Resused Movie List component to make movie suggestion container
+- Reused Movie List component to make movie suggestion container
 - Memoization
 - Added .env file
 - Adding .env file to gitignore
 - Made Site Responsive
-- OnHover over the card for each movie - show movie details.
+- OnHover effect on the card shows movie details.
 
 ### Building a Redux store:
 
