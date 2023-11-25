@@ -5,9 +5,8 @@
 
 ## Demo User:
 
-- Email: testuser2@gmail.com
-- Pswd: Test2@123
-- (Bypass the warning message)
+- Email: test123@gmail.com
+- Pswd: Test@123
 
 ### Features
 
