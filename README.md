@@ -67,7 +67,7 @@ FoodAdda is built using the following technologies:
 ### Improvements
 
 - OnHover over the card for each movie - show movie details.
-- # OnClick over movieCard - navigate to another component to show the movie details
+- OnClick over movieCard - navigate to another component to show the movie details
 - OnHover effect on the card shows movie details.
 
 ### Building a Redux store:
