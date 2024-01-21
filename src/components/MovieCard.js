@@ -13,17 +13,25 @@ const MovieCard = ({ posterPath, voteAvg, title }) => {
     setIsHovered(false);
   };
 
+  const showMovieDetails = () => {
+    // When a card is clicked I need to navigate to another component where It will show all the movie details
+    // Similar to what happens when we hover->click on the netflix app
+
+    console.log("Card clicked");
+  };
+
   if (!posterPath) return null;
   return (
     <div
-      className="w-36 md:w-48 cursor-pointer text-white relative group"
+      className="w-36 md:w-48 cursor-pointer text-white relative "
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={showMovieDetails}
     >
       <img
         alt="Movie card"
         src={IMG_CDN_URL + posterPath}
-        className="relative "
+        className="relative rounded-md"
       />
       {isHovered && (
         <div className="w-full flex flex-col gap-2 p-4 absolute bottom-0 left-0 scale-90 transition-all duration-300 bg-black">

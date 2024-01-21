@@ -51,7 +51,11 @@
 - Added .env file
 - Adding .env file to gitignore
 - Made Site Responsive
+
+### Improvements
+
 - OnHover over the card for each movie - show movie details.
+- OnClick over movieCard - navigate to another component to show the movie details
 
 ### Building a Redux store:
 
