@@ -5,13 +5,12 @@ Welcome to Netflix-GPT, a cutting-edge project combining React, Redux, and OpenA
 ![image](https://github.com/Chinmayee-mohapatra/netflix-gpt/assets/94803850/5ed86f7e-776f-4d76-9755-cfc750c3398c)
 ![image](https://github.com/Chinmayee-mohapatra/netflix-gpt/assets/94803850/3cd1a602-2d86-4f55-81a6-132e171e01d3)
 
-
 ## Live Demo
 
 - Email: test123@gmail.com
 - Pswd: Test@123
 - Live: https://netflix-gpt-4b75c.web.app/
-  
+
 ## Tech Stack
 
 FoodAdda is built using the following technologies:
@@ -63,15 +62,13 @@ FoodAdda is built using the following technologies:
 - Added .env file
 - Adding .env file to gitignore
 - Made Site Responsive
-<<<<<<< HEAD
+  <<<<<<< HEAD
 
 ### Improvements
 
 - OnHover over the card for each movie - show movie details.
-- OnClick over movieCard - navigate to another component to show the movie details
-=======
+- # OnClick over movieCard - navigate to another component to show the movie details
 - OnHover effect on the card shows movie details.
->>>>>>> 2a206dbd8216fbc1028aba2eff3a742e8424890c
 
 ### Building a Redux store:
 
@@ -85,12 +82,19 @@ FoodAdda is built using the following technologies:
 - GPT Recommendation System: eg: Old Hindi Bollywood movies which are funny.
 
 ### Installation
+
 To run FoodAdda locally, follow these steps:
 
 1. Clone the repository:
+
 - git clone https://github.com/Chinmayee-mohapatra/netflix-gpt.git
+
 2. Install the required dependencies:
+
 - npm install
+
 3. Start the development server:
+
 - npm start
+
 4. Open your browser and access http://localhost:1234 to view the application.
